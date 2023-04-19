@@ -1,0 +1,30 @@
+.form{
+    width:200px;
+    margin:0 auto;
+    padding: 20px;
+    background-color:lightgoldenrodyellow;
+}
+.form > div{
+    margin: 10px;
+}
+input{
+    padding: 10px;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    border:0px;
+}
+button{
+    display: flex;
+    justify-content:center;
+    width:99%;
+    margin-left:4%;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: red;
+
+}
